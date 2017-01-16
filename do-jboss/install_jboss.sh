@@ -26,3 +26,4 @@ chkconfig --add wildfly
 chkconfig wildfly on
 # chown -R wildfly:wildfly /var/run/wildfly
 # chown -R wildfly:wildfly /var/log/wildfly
+``

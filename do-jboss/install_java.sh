@@ -6,3 +6,6 @@ wget --no-cookies --no-check-certificate --header "Cookie: oraclelicense=accept-
 yum -y install /tmp/jdk-8-linux-x64.rpm
 export JAVA_HOME=/usr/java/latest 
 echo "JAVA_HOME=/usr/java/latest" >> ~/.bash_profile
+
+
+

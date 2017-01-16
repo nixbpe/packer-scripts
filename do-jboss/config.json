@@ -1,3 +1,4 @@
+
 {
     "variables" : {
         "api_token" : "{{env `DO_API_TOKEN`}}"
@@ -10,21 +11,11 @@
         "image": "centos-6-5-x64",
         "snapshot_name" : "wildfly-centos-{{ timestamp }}"
     }],
-
     "provisioners" : [
-        {
-            "type" : "shell",
-            "script" : "init.sh"
-        },
-        {
-            "type" : "shell",
-            "script" : "install_java.sh"
-        },
-        {
-            "type" : "shell",
-            "script" : "install_jboss.sh"
-        }
+        { "type" : "shell","script" : "init.sh" },
+        { "type" : "shell", "script" : "install_java.sh" },
+        { "type" : "shell", "script" : "install_jboss.sh"}
     ]
-
-
 }
+
+
